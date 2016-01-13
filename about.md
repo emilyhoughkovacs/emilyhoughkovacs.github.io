@@ -12,5 +12,5 @@ Emily lives in Crown Heights, Brooklyn and hails from New Hampshire.
 
 ### Contact me
 
-[emilyhoughkovacs@gmail.com](mailto:emilyhoughkovacs@gmail.com)
+[emilyhoughkovacs@gmail.com](mailto:emilyhoughkovacs@gmail.com)<br>
 [LinkedIn](https://www.linkedin.com/in/emilyhoughkovacs)
