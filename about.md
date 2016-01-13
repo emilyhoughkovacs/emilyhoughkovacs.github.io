@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Emily Hough-Kovacs is a data scientist based in New York City. She graduated in 2014 from Barnard College with a B.A. in Mathematics-Computer Science. After that, she interned with the Data Analytics team at [Etsy](https://www.etsy.com), an e-commerce marketplace for vintage and handmade goods based in Dumbo, Brooklyn. From there she moved to the Product Analytics team at [Tumblr](https://www.tumblr.com). Currently she is a data science student at [Metis](www.thisismetis.com), a data science bootcamp backed by Kaplan.
+
+Emily lives in Crown Heights, Brooklyn and hails from New Hampshire.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[emilyhoughkovacs@gmail.com](mailto:emilyhoughkovacs@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/emilyhoughkovacs)
