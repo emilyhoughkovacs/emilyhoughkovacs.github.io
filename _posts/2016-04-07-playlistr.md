@@ -19,15 +19,15 @@ Finally, to create a playlist I would start with a song or artist given as input
 
 Below you can see Playlistr in action with the song "Work" by Rihanna.
 
-[work](/images/work_rihanna_v2.gif)
+![work](/images/work_rihanna_v2.gif)
 
 Suppose you knew the name of a track but not the primary artist. In this case, we type "Summer Sixteen" into Playlistr, and it anticipates that the artist is Drake.
 
-[summer_sixteen](/images/summer_sixteen.gif)
+![summer_sixteen](/images/summer_sixteen.gif)
 
 Finally, if you're not sure what song to choose for a given artist, you can simply put in their name and Playlistr will choose a song for you.
 
-[only_nicki](/images/only_nicki.gif)
+![only_nicki](/images/only_nicki.gif)
 
 That's all I have for now. Until next time!
 
