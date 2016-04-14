@@ -13,7 +13,7 @@ To recreate that song-by-song matrix I re-weight each contributor's influence on
 
 This last point really highlights the beauty of the iterative process. In building out the complexity of my song-to-song relationships, I also have the opportunity to toggle the way that matrix is built. Of course, I can try out many different combinations of these weights and load different settings as I see fit, but the iterative flow of my development cycle gives me a natural chance to check in on the balance of this algorithm and ensure I'm seeing the kind of results I want. Had my song matrix been complete from the very beginning, there would be little motivation to continue tinkering with the weighting of artists. By consistently trying new levels of influence for different contributor types, I have flexibility to adapt my code to my given needs and preferences. This is something I hope to keep in mind as I develop new data products. In construction, the motto is "measure twice, cut once". In programming, you can build the blueprint once, and "cut" your final product in as many different ways as you like. This is the power of iterative and modularized workflow!<br>
 
-<center>![to_infinity_and_beyond](/images/iterative.jpg)</center>
+![to_infinity_and_beyond](/images/iterative.jpg)
 
 Until next time!
 
