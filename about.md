@@ -6,7 +6,7 @@ permalink: /about/
 
 ### More Information
 
-Emily Hough-Kovacs is a data scientist at [Spotify](https://open.spotify.com/user/emilyhoughkovacs), based out of their New York City office. Emily is an alumnus of [Metis Data Science Bootcamp](https://www.thisismetis.com/data-science-bootcamps) from the NYC DS6 (Winter 2016) cohort This blog was originally designed to consolidate the insights from projects completed over the course of the bootcamp.
+Emily Hough-Kovacs is a data scientist at [Spotify](https://open.spotify.com/user/emilyhoughkovacs), based out of their New York City office. Emily is an alumnus of [Metis Data Science Bootcamp](https://www.thisismetis.com/data-science-bootcamps) from the NYC DS6 (Winter 2016) cohort. This blog was originally designed to consolidate the insights from projects completed over the course of that program.
 
 Prior to Metis, Emily worked in Business Intelligence at [Tumblr](http://emily.voyage). Emily is a proud alumna of [Barnard College](https://math.barnard.edu/), the liberal arts college for women in New York City, where she studied Mathematics-Computer Science.
 
