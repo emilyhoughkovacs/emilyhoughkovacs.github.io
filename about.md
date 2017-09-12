@@ -6,9 +6,11 @@ permalink: /about/
 
 ### More Information
 
-Emily Hough-Kovacs is a data scientist based in New York City. She graduated in 2014 from Barnard College with a B.A. in Mathematics-Computer Science. After that, she interned with the Data Analytics team at [Etsy](https://www.etsy.com), an e-commerce marketplace for vintage and handmade goods based in Dumbo, Brooklyn. From there she moved to the Product Analytics team at [Tumblr](https://www.tumblr.com), a microblogging platform for sharing and creating content. Currently she is a student at [Metis](http://www.thisismetis.com), a data science bootcamp backed by Kaplan.
+Emily Hough-Kovacs is a data scientist at [Spotify](https://open.spotify.com/user/emilyhoughkovacs) based in New York City. Emily is an alumnus of [Metis Data Science Bootcamp](https://www.thisismetis.com/data-science-bootcamps) from the NYS DS6 (Winter 2016) cohort This blog was originally designed to consolidate the insights from projects completed over the course of the bootcamp.
 
-Emily lives in Crown Heights, Brooklyn and hails from New Hampshire.
+Prior to Metis, Emily worked in Business Intelligence at [Tumblr](http://emily.voyage). Emily is a proud alumna of [Barnard College](https://math.barnard.edu/), the liberal arts college for women in New York City, where she studied Mathematics-Computer Science.
+
+Beyond data science, Emily is a superfan of [Nicki Minaj](https://www.youtube.com/watch?v=PzGZamtlRP0). She also enjoys ramen noodles, working out, and learning foreign languages. Emily lives in Crown Heights, Brooklyn and hails from New Hampshire.
 
 ### Contact me
 
