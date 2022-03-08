@@ -10,7 +10,7 @@ Emily Hough-Kovacs is a data scientist at [Capitol Music Group](https://www.univ
 
 Prior to Capitol Music Group, Emily spent five years as a data scientist at [Spotify](https://open.spotify.com/user/emilyhoughkovacs). She is a proud alumna of [Barnard College](https://math.barnard.edu/), the liberal arts college for women in New York City, where she studied Mathematics-Computer Science.
 
-Beyond data science, Emily is a [Nicki Minaj](https://www.youtube.com/watch?v=PzGZamtlRP0) superfan. She also enjoys ramen, working out, and learning foreign languages. Emily lives in Santa Barbara, California and hails from New Hampshire.
+Emily lives in Santa Barbara, California and is originally from from New Hampshire. Beyond data science, she also loves [Nicki Minaj](https://www.youtube.com/watch?v=PzGZamtlRP0), working out, and learning foreign languages. 
 
 ### Contact
 
