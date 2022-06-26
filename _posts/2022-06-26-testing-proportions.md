@@ -4,8 +4,8 @@ title: "Hypothesis Testing: Testing Proportions and Types of Errors"
 date: 2022-06-26 15:40:00
 ---
 
-<sub>This post is part of a series on <a href="http://emily-hk.com/welcome-back/">Prepping for the Google Product Analyst Interview.</a>
-This post is the first of a four-part series on Hypothesis Testing. Part 2, part 3, and part 4 are forthcoming.</sub>
+<sub>This post is part of a series on <a href="http://emily-hk.com/welcome-back/">Prepping for the Google Product Analyst Interview.</a></sub>
+<sub>This post is the first of a four-part series on Hypothesis Testing. Part 2, part 3, and part 4 are forthcoming.</sub>
 
 Welcome back to my journey through prepping for the Google Product Analyst interview! Today we are going through an introduction to hypothesis testing with an example use case of comparing a proportion to a hypothesized value. We will go over calculating the z-score, p-value, and evaluating whether the test was a success or not. We will also cover Type I and Type II errors.
 
@@ -31,8 +31,8 @@ But wait, what is a p-value? The p-value is the probability of obtaining a resul
 You may have also noticed that in step 5 I referenced something called a left-tailed test or a right-tailed test. This is in reference to the null distribution. Hypothesis tests check if the sample statistic lies within the tails of the null distribution. If a test is checking for whether a value is _less than_ the hypothesized value, it's a left-tailed test. If it's checking if it's _greater than_ the hypothesized value, it's a right-tailed test. You can also simply check if the value is equal to the hypothesized value or not, making it a two-tailed test, but I'll go into this in greater detail in another blog post.
 
 Finally, you will choose a confidence interval. This will give you a range of plausible values for your population parameter. For an alpha of 0.05, you would choose a 95% confidence interval. To calculate it, you would do as follows:
-$$ \text{lower = np.quantile(boot_distn, 0.025)}
-\text{upper = np.quantile(boot_distn, 0.975)} $$
+$$\text{lower = np.quantile(boot_distn, 0.025)}$$
+$$\text{upper = np.quantile(boot_distn, 0.975)}$$
 
 The last topic in this chapter on hypothesis testing covered types of errors. They are summarized in the table below:
 
