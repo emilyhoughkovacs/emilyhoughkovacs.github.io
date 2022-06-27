@@ -5,7 +5,7 @@ date: 2022-06-26 15:40:00
 ---
 
 ###### This post is part of a series on <a href="http://emily-hk.com/welcome-back/">Prepping for the Google Product Analyst Interview.</a>
-###### This post is the first of a four-part series on Hypothesis Testing. Part 2, part 3, and part 4 are forthcoming.
+###### This post is the first of a four-part series on Hypothesis Testing. <a href="http://emily-hk.com/t-tests-and-more/">Part 2 here</a>. Parts 3 and 4 are forthcoming.
 
 Welcome back to my journey through prepping for the Google Product Analyst interview! Today we are going through an introduction to hypothesis testing with an example use case of comparing a proportion to a hypothesized value. We will go over calculating the z-score, p-value, and evaluating whether the test was a success or not. We will also cover Type I and Type II errors.
 
@@ -15,7 +15,7 @@ Before we start, let's go over some definitions. First, what is a hypothesis? A 
 
 A hypothesis test compares two competing _hypotheses_. Either one or the other can be true, but not both. The two hypothesis are traditionally known as the _null hypothesis_, denoted $H_0$, and the _alternative hypothesis_, denoted $H_A$. The assumption is always that the null hypothesis is true, and it is our job to disprove that or accept that null hypothesis. This is called _rejecting the null_ or _failing to reject the null_. In this way, a hypothesis test is similar to a criminal trial. In a criminal trial there can be (essentially) two verdicts: guilty or not guilty. Additionally, for simplicity's sake, let's say a defendant can either have committed the crime, or not committed the crime. Finally, the defendant is assumed to be not guilty, unless proven otherwise "beyond a reasonable doubt".
 
-In hypothesis testing, "reasonable doubt" is known as the _significance level_. This is a cutoff parameter that you choose yourself based on industry experience, best practices, and the tradeoff you are willing to make between false positive and false negative errors (more on that later). Traditionally a common cutoff for the significance level (also known as _alpha_) is set at 0.05.
+In hypothesis testing, "reasonable doubt" is known as the _significance level_. This is a cutoff parameter that you choose yourself based on industry experience, best practices, and the tradeoff you are willing to make between false positive and false negative errors (more on that later). Traditionally a common cutoff for the significance level (also known as $\alpha$ -- _alpha_) is set at 0.05.
 
 So how do you check if a calculated sample statistic statistically significantly different from a chosen value? Here are the steps:
 
@@ -24,7 +24,7 @@ So how do you check if a calculated sample statistic statistically significantly
 3. Calculate the standard error from bootstrapping. As a reminder, this is done by calling $np.std(\text{bootstrap_dist, ddof=}1)$
 4. Standardize your value by calculating the z-score, which is a measure of how many standard deviations above or below the mean a value is. This is calculated as follows:
 $$ \frac{\text{sample stat - hypothesized parameter value}}{\text{standard error}} $$
-5. Calculate the p-value by passing the z-score to `norm.cdf()`. For a left-tailed test you will use $\text{norm.cdf(z-score)}$ and for a right-tailed test you will use $\text{1-norm.cdf(z-score)}$.
+5. Calculate the p-value by passing the z-score to $\text{norm.cdf()}$. For a left-tailed test you will use $\text{norm.cdf(z-score)}$ and for a right-tailed test you will use $\text{1-norm.cdf(z-score)}$.
 
 But wait, what is a p-value? The p-value is the probability of obtaining a result, assuming $H_0$ is true. Essentially, it measures the support for $H_0$. If the p-value is large -- larger than our chosen significance level, then you fail to reject the null hypothesis. If it's smaller, then you reject the null hypothesis in favor of the alternative hypothesis. Because of this, it's important to always choose your $\alpha$ before caclulating the p-value. This way you won't be a victim of what's known as "p-hacking", or choosing a significance level that gives you the hypothesis that you prefer.
 
