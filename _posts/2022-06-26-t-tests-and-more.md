@@ -52,7 +52,8 @@ child   $132,419
 Obviously, these numbers are different. But are they _statistically significantlly_ different? Or could it be explained by _sampling variability_?
 
 To answer this question, we will run a t-test. To run a t-test, you need to first find the test statistic, then standardize it, similar to the proportions test. This time, our equation is as follows:
-$$ \frac{\text{difference in sample statistics - difference in population parameters}}{\text{standard error}}$$
+
+$$\frac{\text{difference in sample statistics - difference in population parameters}}{\text{standard error}}$$
 
 Alternatively, this can be written as:
 
@@ -64,7 +65,7 @@ Previously, we calculated the standard error from a bootstrap distribution, but 
 
 $$ SE(\bar{x}_{child} - \bar{x}_{adult}) \approx \sqrt{\frac{s^2_{child}}{n_{child}} + \frac{s^2_{adult}}{n_{adult}}} $$
 
-Thus, we can calculate the t-statistic using the following six variables, all of which we can calculate from the sample: $\bar{x}_{child}$, $\bar{x}_{adult}$, $s^2_{child}$, $s^2_{adult}$, $n_{child}$ and $n_{adult}$, as follows:
+Thus, we can calculate the t-statistic using the following six variables, all of which we can calculate from the sample: $\bar{x}_{child}, \bar{x}_{adult}$, $s^2_{child}$, $s^2_{adult}$, $n_{child}$ and $n_{adult}$, as follows:
 
 $$\frac{\bar{x}_{child} - \bar{x}_{adult}}{\sqrt{\frac{s^2_{child}}{n_{child}} + \frac{s^2_{adult}}{n_{adult}}}} $$
 
