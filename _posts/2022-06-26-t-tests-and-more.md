@@ -65,7 +65,7 @@ Previously, we calculated the standard error from a bootstrap distribution, but 
 
 $$ SE(\bar{x}_{child} - \bar{x}_{adult}) \approx \sqrt{\frac{s^2_{child}}{n_{child}} + \frac{s^2_{adult}}{n_{adult}}} $$
 
-Thus, we can calculate the t-statistic using the following six variables, all of which we can calculate from the sample: $\bar{x}_{child}, \bar{x}_{adult}$, $s^2_{child}$, $s^2_{adult}$, $n_{child}$ and $n_{adult}$, as follows:
+Thus, we can calculate the t-statistic using the following six variables, all of which we can calculate from the sample: 
 
 $$\frac{\bar{x}_{child} - \bar{x}_{adult}}{\sqrt{\frac{s^2_{child}}{n_{child}} + \frac{s^2_{adult}}{n_{adult}}}} $$
 
