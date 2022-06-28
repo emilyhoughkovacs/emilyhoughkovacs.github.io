@@ -5,7 +5,7 @@ date: 2022-06-26 17:42:00
 ---
 
 ###### This post is part of a series on <a href="http://emily-hk.com/welcome-back/">Prepping for the Google Product Analyst Interview.</a>
-###### This post is the second of a four-part series on Hypothesis Testing. <a href="http://emily-hk.com/testing-proportions/">Part 1 here</a>. Parts 3 and 4 are forthcoming.
+###### This post is the second of a four-part series on Hypothesis Testing. <a href="http://emily-hk.com/testing-proportions/">Part 1 here</a>. <a href="http://emily-hk.com/chi-squared/">Part 3 here.</a> Part 4 is forthcoming.
 
 Welcome back to my journey through prepping for the Google Product Analyst interview! In this post, we are building on our <a href="http://emily-hk.com/testing-proportions/">previous knowledge</a> to expand our hypothesis testing practices to three new types of tests: the t-test, ANOVA, and the paired t-test. I'll go through how to perform each of these tests and when to use them.
 
@@ -96,7 +96,7 @@ So, what exactly are degrees of freedom? The degrees of freedom are the maximum 
 
 ## 2. Paired T-Test
 
-Sometimes, the two datasets you want to compare are _paired_. An example of this might be students' test scores at the beginning and end of a course. Since the same student is taking the first and last exam, the data are paired along the axis of studehts. This is because there may be some variation in one how student performs from another. To handle this, you would take the difference of the two values and use that as your test statistic. Since we now have only one value for the test statistic, the difference, the degrees of freedom is now $n_{diff} - 1$. 
+Sometimes, the two datasets you want to compare are _paired_. An example of this might be students' test scores at the beginning and end of a course. Since the same student is taking the first and last exam, the data are paired along the axis of students. This is because there may be some variation in one how student performs from another. To handle this, you would take the difference of the two values and use that as your test statistic. Since we now have only one value for the test statistic, the difference, the degrees of freedom is now $n_{diff} - 1$. 
 
 As an alternative to using scipy, Chapman introduces the `pingouin` package. This package provides a ttest function which can be used as follows to perform a paired t-test:
 
