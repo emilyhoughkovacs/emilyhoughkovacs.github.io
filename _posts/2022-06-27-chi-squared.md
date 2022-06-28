@@ -79,10 +79,10 @@ Recall for a right-tailed test the p-value is calculated as $\text{1-norm.cdf(z-
 
 We can also compare two proportions across another categorical variable. In the Stack Overflow dataset, there's a column called `'hobbyist'` with values of either `'Yes'` or `'No'`, showing whether a user self-describes as a hobbyist programmer. We want to know about the following hypotheses:
 
-$$H_0: \text{The proportion of S.O. hobbyist users is the same $$
-$$for the under 30 category as those who are at least 30.}$$
-$$H_A: \text{The proportion of S.O. hobbyist users is not the same $$
-$$for the under 30 category as those who are at least 30.}$$
+$$H_0: \text{The proportion of S.O. hobbyist users is the same}$$
+$$\text{for the under 30 category as those who are at least 30.}$$
+$$H_A: \text{The proportion of S.O. hobbyist users is not the same} $$
+$$\text{for the under 30 category as those who are at least 30.}$$
 
 Again, let's start by setting our $\alpha$, this time to $0.05$.
 
