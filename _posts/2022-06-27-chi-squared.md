@@ -79,8 +79,10 @@ Recall for a right-tailed test the p-value is calculated as $\text{1-norm.cdf(z-
 
 We can also compare two proportions across another categorical variable. In the Stack Overflow dataset, there's a column called `'hobbyist'` with values of either `'Yes'` or `'No'`, showing whether a user self-describes as a hobbyist programmer. We want to know about the following hypotheses:
 
-$$H_0: \text{The proportion of S.O. hobbyist users is the same for the under 30 category as those who are at least 30.}$$
-$$H_A: \text{The proportion of S.O. hobbyist users is not the same for the under 30 category as those who are at least 30.}$$
+$$H_0: \text{The proportion of S.O. hobbyist users is the same 
+for the under 30 category as those who are at least 30.}$$
+$$H_A: \text{The proportion of S.O. hobbyist users is not the same 
+for the under 30 category as those who are at least 30.}$$
 
 Again, let's start by setting our $\alpha$, this time to $0.05$.
 
@@ -127,7 +129,7 @@ To illustrate this, let's look at a stacked bar graph of age categories by job s
 
 As you can see, all categories appear to have roughly the same proportion of under-30-year-olds. But are they truly the same? This will determine whether or not age category and job satisfaction levels are independent.
 
-Let's set an $\alpha$ of $0.01$. Our test statistic is $\Chi^2$. Assuming independence, how far away are the observed values from our expected values? The code to answer this again uses the `pingouin` package:
+Let's set an $\alpha$ of $0.01$. Our test statistic is $\chi^2$. Assuming independence, how far away are the observed values from our expected values? The code to answer this again uses the `pingouin` package:
 
 ```
 import pingouin
@@ -152,7 +154,7 @@ Finally, we can use a chi-square goodness-of-fit test to compare a single catego
 $$ H_0: \text{Our sample matches the hypothesized distribution.}$$
 $$ H_A: \text{Our sample does not match the hypothesized distribution.}$$
 
-$\Chi^2$ again measures how far the observed results are from the expectations of each group. Let's choose an $\alpha$ of $0.1$. Again, we want to visualize what we are talking about. For now, don't worry about the categorical value names (if you're really curious, take the course or find the Stack Overflow data yourself). The below code will generate the following image, which shows the sample distribution as bars in orange and the hypothesized distribution as points in purple.
+$\chi^2$ again measures how far the observed results are from the expectations of each group. Let's choose an $\alpha$ of $0.1$. Again, we want to visualize what we are talking about. For now, don't worry about the categorical value names (if you're really curious, take the course or find the Stack Overflow data yourself). The below code will generate the following image, which shows the sample distribution as bars in orange and the hypothesized distribution as points in purple.
 
 ```
 import matplotlib as plt
