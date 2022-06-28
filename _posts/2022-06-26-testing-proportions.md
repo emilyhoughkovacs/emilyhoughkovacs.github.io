@@ -5,7 +5,7 @@ date: 2022-06-26 15:40:00
 ---
 
 ###### This post is part of a series on <a href="http://emily-hk.com/welcome-back/">Prepping for the Google Product Analyst Interview.</a>
-###### This post is the first of a four-part series on Hypothesis Testing. <a href="http://emily-hk.com/t-tests-and-more/">Part 2 here</a>. Parts 3 and 4 are forthcoming.
+###### This post is the first of a four-part series on Hypothesis Testing. <a href="http://emily-hk.com/t-tests-and-more/">Part 2 here</a>. <a href="http://emily-hk.com/chi-squared/">Part 3 here.</a> Part 4 is forthcoming.
 
 Welcome back to my journey through prepping for the Google Product Analyst interview! Today we are going through an introduction to hypothesis testing with an example use case of comparing a proportion to a hypothesized value. We will go over calculating the z-score, p-value, and evaluating whether the test was a success or not. We will also cover Type I and Type II errors.
 
