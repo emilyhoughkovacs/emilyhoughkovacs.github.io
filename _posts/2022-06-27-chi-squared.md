@@ -88,7 +88,7 @@ The z-score is as follows:
 
 $$ z = \frac{(\hat{p}_{\geq 30} - \hat{p}_{< 30})-0}{SE(\hat{p}_{\geq 30} - \hat{p}_{< 30})}$$
 
-The standard error for $\hat{p}_{\geq 30} - \hat{p}_{< 30}$ is rather ugly, but it can be broken down easily.
+The standard error for $\hat{p}_ {\geq 30} - \hat{p}_ {< 30}$ is rather ugly, but it can be broken down easily.
 
 $$SE_{\hat{p}_{\geq 30} - \hat{p}_{< 30}} = \sqrt{\frac{\hat{p} * (1 - \hat{p})}{n_{\geq 30}} + \frac{\hat{p} * (1 - \hat{p})}{n_{< 30}}} $$
 
