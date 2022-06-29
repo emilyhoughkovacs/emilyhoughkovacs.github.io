@@ -5,7 +5,7 @@ date: 2022-06-26 17:42:00
 ---
 
 ###### This post is part of a series on <a href="http://emily-hk.com/welcome-back/">Prepping for the Google Product Analyst Interview.</a>
-###### This post is the second of a four-part series on Hypothesis Testing. <a href="http://emily-hk.com/testing-proportions/">Part 1 here</a>. <a href="http://emily-hk.com/chi-squared/">Part 3 here.</a> Part 4 is forthcoming.
+###### This post is the second of a four-part series on Hypothesis Testing. <a href="http://emily-hk.com/testing-proportions/">Part 1 here</a>. <a href="http://emily-hk.com/chi-squared/">Part 3 here.</a> <a href="http://emily-hk.com/non-parametric-tests/">Part 4 here</a>.
 
 Welcome back to my journey through prepping for the Google Product Analyst interview! In this post, we are building on our <a href="http://emily-hk.com/testing-proportions/">previous knowledge</a> to expand our hypothesis testing practices to three new types of tests: the t-test, ANOVA, and the paired t-test. I'll go through how to perform each of these tests and when to use them.
 
