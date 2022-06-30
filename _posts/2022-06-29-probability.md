@@ -16,11 +16,11 @@ Since the probability of rolling a fair die is $1/6$ for each side, the calculat
 $$ E[X] = x_1p_1 + x_2p_2 + x_3p_3 + x_4p_4 + x_5p_5 + x_6p_6$$
 $$ E[X] = 1 * \frac{1}{6} + 2 * \frac{1}{6} + 3 * \frac{1}{6} + 4 * \frac{1}{6} + 5 * \frac{1}{6} + 6 * \frac{1}{6} = 3.5$$
 
-This was a pretty easy scenario, and it assumes the probability of each outcome is exactly the same. <a href="https://en.wikipedia.org/wiki/Expected_value">Wikipedia</a> goes on to offer a second example, using the game of roulette. In the game of roulette, there's a small ball and 38 numbered pockets. A player can place a \$1 bet that the ball will fall in a specific number. If it does, they win \$35. If not, they lose their dollar. What is the expected payout?
+This was a pretty easy scenario, and it assumes the probability of each outcome is exactly the same. <a href="https://en.wikipedia.org/wiki/Expected_value">Wikipedia</a> goes on to offer a second example, using the game of roulette. In the game of roulette, there's a small ball and 38 numbered pockets. A player can place a \\$ 1 bet that the ball will fall in a specific number. If it does, they win \$ 35. If not, they lose their dollar. What is the expected payout?
 
 $$E[gain from \$1 bet] = -\$1 * \frac{37}{38} + \$35 * \frac{1}{38} = -\frac{1}{19}$$
 
-Repeating this bet 190 times would yield an expected payout of \$-10. Not a very good deal!
+Repeating this bet 190 times would yield an expected payout of \$ -10. Not a very good deal!
 
 Let's try one more example. Suppose the approval rating for the president is 60%. You take a sample of two Americans and want to know the expected value for the number that approve of the president. The probability of 0, 1, or both sampled adults approving is given by the following table, given that we know that the approval rating is 60%.
 
@@ -68,7 +68,7 @@ I found <a href="https://www.youtube.com/watch?v=OvTEhNL96v0">this video</a> on 
 
 ## 3. Conditional Probability
 
-The third topic mentioned regarding probability theory is conditional probability. For conditional probability, we want to know the probability of one thing occurring, given that another thing has occured. The most important thing to remember about conditional probability is Bayes' Theorem, which allows us to find $P(A|B)$ (the probability of A, given B) when we already know $P(B|A)$ (the probability of B, given A). Bayes' Theorem is pretty simple to memorize, and is given as follows:
+The third topic mentioned regarding probability theory is conditional probability. For conditional probability, we want to know the probability of one thing occurring, given that another thing has occured. The most important thing to remember about conditional probability is Bayes' Theorem, which allows us to find $P(A\|B)$ (the probability of A, given B) when we already know $P(B\|A)$ (the probability of B, given A). Bayes' Theorem is pretty simple to memorize, and is given as follows:
 
 $$ P(A|B) = \frac{P(B|A) * P(A)}{P(B)}$$
 
@@ -79,7 +79,7 @@ Let's first set up our $P(A)$ and $P(B)$. We want to know $P(\text{coin is rigge
 $$P(A) = P(\text{coin is rigged})$$
 $$P(B) = P(\text{tails})$$
 
-Now we need the probability of both of these things, as well as $P(B|A)$, or the probability that you get tails given that the coin is rigged. Thankfully, these are super easy to work out.
+Now we need the probability of both of these things, as well as $P(B\|A)$, or the probability that you get tails given that the coin is rigged. Thankfully, these are super easy to work out.
 
 $$P(B|A) = P(\text{tails|coin is rigged}) = 1$$
 $$P(A) = P(\text{coin is rigged}) = 0.5$$
