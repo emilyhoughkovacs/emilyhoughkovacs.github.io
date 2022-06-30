@@ -18,7 +18,7 @@ $$ E[X] = 1 * \frac{1}{6} + 2 * \frac{1}{6} + 3 * \frac{1}{6} + 4 * \frac{1}{6} 
 
 This was a pretty easy scenario, and it assumes the probability of each outcome is exactly the same. <a href="https://en.wikipedia.org/wiki/Expected_value">Wikipedia</a> goes on to offer a second example, using the game of roulette. In the game of roulette, there's a small ball and 38 numbered pockets. A player can place a \\$ 1 bet that the ball will fall in a specific number. If it does, they win \$ 35. If not, they lose their dollar. What is the expected payout?
 
-$$E[gain from \$1 bet] = -\$1 * \frac{37}{38} + \$35 * \frac{1}{38} = -\frac{1}{19}$$
+$$E[\text{gain from \$1 bet}] = -\$1 * \frac{37}{38} + \$35 * \frac{1}{38} = -\frac{1}{19}$$
 
 Repeating this bet 190 times would yield an expected payout of \$ -10. Not a very good deal!
 
@@ -77,12 +77,15 @@ Let's do an example. You have two coins, one that is typical with heads and tail
 Let's first set up our $P(A)$ and $P(B)$. We want to know $P(\text{coin is rigged})$ given $P(\text{tails})$ so 
 
 $$P(A) = P(\text{coin is rigged})$$
+
 $$P(B) = P(\text{tails})$$
 
 Now we need the probability of both of these things, as well as $P(B\|A)$, or the probability that you get tails given that the coin is rigged. Thankfully, these are super easy to work out.
 
 $$P(B|A) = P(\text{tails|coin is rigged}) = 1$$
+
 $$P(A) = P(\text{coin is rigged}) = 0.5$$
+
 $$P(B) = P(\text{tails}) = 0.75$$
 
 Hopefully these probabilities are fairly intuitive. Then, all you need to do is multiply them according to Bayes' Theorem:
