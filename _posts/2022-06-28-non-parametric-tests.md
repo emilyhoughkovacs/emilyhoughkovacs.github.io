@@ -4,7 +4,6 @@ title: "Hypothesis Testing: Assumptions and Non-Parametric Tests"
 date: 2022-06-28 16:27:00
 ---
 
-###### This post is part of a series on <a href="http://emily-hk.com/welcome-back/">Prepping for the Google Product Analyst Interview.</a>
 ###### This post is the fourth of a four-part series on Hypothesis Testing. <a href="http://emily-hk.com/testing-proportions/">Part 1 here</a>. <a href="http://emily-hk.com/t-tests-and-more/">Part 2 here.</a> <a href="http://emily-hk.com/chi-squared/">Part 3 here</a>.
 
 Welcome back to my journey through prepping for the Google Product Analyst interview! Today we are going to go over some assumptions we've made so far which has allowed us to use the tests introduced in Parts 1, 2, and 3. Then, we'll go over what to do when those assumptions are not met and some alternative tests we can use.
@@ -191,3 +190,5 @@ I've learned a lot and feel a lot more prepared for Google and just interviewing
 Until next time!
 
 --Em
+
+###### This post is part of a series on <a href="http://emily-hk.com/welcome-back/">Prepping for the Google Product Analyst Interview.</a>
