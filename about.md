@@ -6,11 +6,11 @@ permalink: /about/
 
 ### More Information
 
-test test Emily Hough-Kovacs is a data scientist at [Capitol Music Group](https://www.universalmusic.com/label/capitol-music-group/). This blog consolidates her insights from projects completed during the Winter 2016 cohort of the [Metis Data Science Bootcamp](https://www.thisismetis.com/bootcamps/online-data-science-bootcamp) in New York City.
+Emily Hough-Kovacs is a data scientist with over ten years of experience. This blog consolidates her insights from projects completed during the Winter 2016 cohort of the now-defunct Metis Data Science Bootcamp in New York City.
 
-Prior to Capitol Music Group, Emily spent five years as a data scientist at [Spotify](https://open.spotify.com/user/emilyhoughkovacs). She is a proud alumna of [Barnard College](https://math.barnard.edu/), the liberal arts college for women in New York City, where she studied Mathematics-Computer Science.
+Emily has previously worked at companies like [Meta](https://www.meta.com/metaverse/), [Spotify](https://open.spotify.com/user/emilyhoughkovacs), and Tumblr. She is a proud alumna of [Barnard College](https://math.barnard.edu/), the liberal arts college for women in New York City, where she studied Mathematics-Computer Science.
 
-Emily lives in Santa Barbara, California and is originally from from New Hampshire. Beyond data science, she also loves [Nicki Minaj](https://www.youtube.com/watch?v=PzGZamtlRP0), working out, and learning foreign languages. 
+Emily lives in San Francisco, California and is originally from from New Hampshire. Beyond data science, she also loves [Soulcycle](https://www.soul-cycle.com/), learning foreign languages, and her loyal companion, a cockapoo named [Teddy](https://www.instagram.com/theodoreroofvelt/). 
 
 ### Contact
 
