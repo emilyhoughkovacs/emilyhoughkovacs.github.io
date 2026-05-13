@@ -2,12 +2,12 @@
 layout: post
 title: "Review: Build Your Own LLM Workshop"
 date: 2026-05-11 19:15:00
-image: /images/llm-classroom.png
+image: /images/llm-classroom.jpg
 ---
 
 Last Saturday I attended a full-day "How to Build Your Own LLM Workshop," hosted by [Rally SF](https://www.rallysf.com/?utm_source=emilyhk&utm_medium=blog) at [The Commons](https://www.thesfcommons.com/). The course was taught by [Justin Angel](https://x.com/JustinAngel). Here's my review.
 
-![classroom](/images/llm-classroom.png)
+![classroom](/images/llm-classroom.jpg)
 #### _Here we are at the Commons, deeply focused on Justin's lesson._
 
 ## The Format
@@ -18,7 +18,7 @@ Each section had several chapters, with each chapter having a corresponding .ipy
 
 Class started promptly at 9. It seemed every minute of the day was very tightly timed. There was a lot of content to cover and it felt at times a bit rushed in order to give us enough time to explore the hands-on materials. My recommendation was to turn this course into a two-day event, with day one being sections one and two - all the way through architecture - and day two focused on pre-training, evaluation and fine-tuning. The added bonus of a two-day workshop is that we could train our own model overnight, since the small model we were building would take about eight hours to train.
 
-![justin](/images/llm-justin.png)
+![justin](/images/llm-justin.jpg)
 #### _Justin used an ongoing analogy of a circuit board with knobs, gates and switches to illustrate the concepts._
 
 ## Syllabus
@@ -74,7 +74,7 @@ On the whole, I thoroughly enjoyed this fast-paced day-long workshop. I would lo
 
 --Em
 
-![laptops](/images/llm-laptops.png)
+![laptops](/images/llm-laptops.jpg)
 #### _A fun day packed with lots of heavy-duty new learnings._
 
 ## References
