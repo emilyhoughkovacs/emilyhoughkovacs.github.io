@@ -2,6 +2,7 @@
 layout: post
 title: "Review: Build Your Own LLM Workshop"
 date: 2026-05-11 19:15:00
+image: /images/llm-classroom.png
 ---
 
 Last Saturday I attended a full-day "How to Build Your Own LLM Workshop," hosted by [Rally SF](https://www.rallysf.com/?utm_source=emilyhk&utm_medium=blog) at [The Commons](https://www.thesfcommons.com/). The course was taught by [Justin Angel](https://x.com/JustinAngel). Here's my review.

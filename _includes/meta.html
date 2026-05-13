@@ -4,15 +4,33 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     {% if page.excerpt %}
-    <meta name="description" content="{{ page.excerpt| strip_html }}" />
-    <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
+    <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 300 }}" />
+    <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 300 }}" />
+    <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 300 }}" />
     {% else %}
     <meta name="description" content="{{ site.description }}">
     <meta property="og:description" content="{{ site.description }}" />
+    <meta name="twitter:description" content="{{ site.description }}" />
     {% endif %}
     <meta name="author" content="{{ site.name }}" />
 
     {% if page.title %}
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="twitter:title" content="{{ page.title }}" />
+    {% else %}
+    <meta property="og:title" content="{{ site.name }}" />
+    <meta property="twitter:title" content="{{ site.name }}" />
+    {% endif %}
+
+    <meta property="og:site_name" content="{{ site.name }}" />
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}" />
+
+    {% assign og_image = page.image | default: site.og_image | default: site.avatar %}
+    {% if og_image %}
+    <meta property="og:image" content="{{ og_image | absolute_url }}" />
+    <meta name="twitter:image" content="{{ og_image | absolute_url }}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    {% else %}
+    <meta name="twitter:card" content="summary" />
     {% endif %}
