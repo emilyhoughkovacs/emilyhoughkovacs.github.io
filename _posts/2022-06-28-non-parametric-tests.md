@@ -6,7 +6,7 @@ date: 2022-06-28 16:27:00
 
 ###### This post is the fourth of a four-part series on Hypothesis Testing. <a href="http://emily-hk.com/testing-proportions/">Part 1 here</a>. <a href="http://emily-hk.com/t-tests-and-more/">Part 2 here.</a> <a href="http://emily-hk.com/chi-squared/">Part 3 here</a>.
 
-Welcome back to my journey through prepping for the Google Product Analyst interview! Today we are going to go over some assumptions we've made so far which has allowed us to use the tests introduced in Parts 1, 2, and 3. Then, we'll go over what to do when those assumptions are not met and some alternative tests we can use.
+Welcome back! Today we are going to go over some assumptions we've made so far which has allowed us to use the tests introduced in Parts 1, 2, and 3. Then, we'll go over what to do when those assumptions are not met and some alternative tests we can use.
 
 As with the previous three parts, this blog post is a review of the DataCamp course <a href="https://campus.datacamp.com/courses/hypothesis-testing-in-python">Hypothesis Testing in Python</a> taught by James Chapman. However, you don't need to have DataCamp access in order to follow along with the concepts presented here.
 
@@ -185,10 +185,8 @@ In <a href="http://emily-hk.com/t-tests-and-more/">Part 2</a>, we extended our k
 
 Finally, in this section, we go beyond parametric tests to understand their underlying assumptions, and what to do for the paired t-test, regular t-test, and ANOVA cases when those assumptions are not met.
 
-I've learned a lot and feel a lot more prepared for Google and just interviewing in general, and I hope those of you reading have learned a lot too. The next steps for me is going to be a review of basic probability, including expectation, variance, and conditional probability, but also diving in to the Central Limit Theorem again, the law of large numbers, as well as Bernoulli trials and the binomial distribution, normal, Poisson, and geometric distributions. It's a lot to cover but I expect that it will be a bit easier than what we've just done, mostly because some of those concepts are actually foundational to the work we've done here. Looking forward to a nice breather and review of some fun probability topics!
+I've learned a lot, and I hope those of you reading have learned a lot too. The next steps for me is going to be a review of basic probability, including expectation, variance, and conditional probability, but also diving in to the Central Limit Theorem again, the law of large numbers, as well as Bernoulli trials and the binomial distribution, normal, Poisson, and geometric distributions. It's a lot to cover but I expect that it will be a bit easier than what we've just done, mostly because some of those concepts are actually foundational to the work we've done here. Looking forward to a nice breather and review of some fun probability topics!
 
 Until next time!
 
 --Em
-
-###### This post is part of a series on <a href="http://emily-hk.com/welcome-back/">Prepping for the Google Product Analyst Interview.</a>

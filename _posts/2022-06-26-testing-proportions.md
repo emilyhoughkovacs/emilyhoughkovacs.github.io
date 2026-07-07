@@ -6,7 +6,7 @@ date: 2022-06-26 15:40:00
 
 ###### This post is the first of a four-part series on Hypothesis Testing. <a href="http://emily-hk.com/t-tests-and-more/">Part 2 here</a>. <a href="http://emily-hk.com/chi-squared/">Part 3 here.</a> <a href="http://emily-hk.com/non-parametric-tests/">Part 4 here</a>.
 
-Welcome back to my journey through prepping for the Google Product Analyst interview! Today we are going through an introduction to hypothesis testing with an example use case of comparing a proportion to a hypothesized value. We will go over calculating the z-score, p-value, and evaluating whether the test was a success or not. We will also cover Type I and Type II errors.
+Welcome back! Today we are going through an introduction to hypothesis testing with an example use case of comparing a proportion to a hypothesized value. We will go over calculating the z-score, p-value, and evaluating whether the test was a success or not. We will also cover Type I and Type II errors.
 
 Again, this blog post is a review of a DataCamp course taught by James Chapman. Today's course is <a href="https://campus.datacamp.com/courses/hypothesis-testing-in-python">Hypothesis Testing in Python</a>, but you don't need to have access to DataCamp in order to follow along.
 
@@ -44,5 +44,3 @@ The last topic in this chapter on hypothesis testing covered types of errors. Th
 That's all for now. Join me back here next time for part 2 on t-tests, ANOVA, and pairwise t-tests.
 
 --Em
-
-###### This post is part of a series on <a href="http://emily-hk.com/welcome-back/">Prepping for the Google Product Analyst Interview.</a>

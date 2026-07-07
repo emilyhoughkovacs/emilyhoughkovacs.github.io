@@ -4,7 +4,7 @@ title: "Probability: Expectation, Variance, and Conditional Probability"
 date: 2022-06-29 17:22:00
 ---
 
-Welcome back to my journey through prepping for the Google Product Analyst interview! Today we'll dive into some basic probability concepts, like expectation and variance, and explore conditional probability. I'll probably write further on more probability concepts in another post, but for now we'll start with this since those were the topics explicitly called out in the recruiter's email for prepping for this interview.
+Welcome back! Today we'll dive into some basic probability concepts, like expectation and variance, and explore conditional probability. I'll probably write further on more probability concepts in another post, but for now we'll start with these foundational ones.
 
 ## 1. Expectation
 
@@ -99,5 +99,3 @@ Well, I think this was quite a bit easier than hypothesis testing. Definitely no
 Until next time!
 
 --Em
-
-###### This post is part of a series on <a href="http://emily-hk.com/welcome-back/">Prepping for the Google Product Analyst Interview.</a>
