@@ -4,8 +4,6 @@ title: "Hypothesis Testing: Assumptions and Non-Parametric Tests"
 date: 2022-06-28 16:27:00
 ---
 
-###### This post is the fourth of a four-part series on Hypothesis Testing. <a href="http://emily-hk.com/testing-proportions/">Part 1 here</a>. <a href="http://emily-hk.com/t-tests-and-more/">Part 2 here.</a> <a href="http://emily-hk.com/chi-squared/">Part 3 here</a>.
-
 Welcome back! Today we are going to go over some assumptions we've made so far which has allowed us to use the tests introduced in Parts 1, 2, and 3. Then, we'll go over what to do when those assumptions are not met and some alternative tests we can use.
 
 As with the previous three parts, this blog post is a review of the DataCamp course <a href="https://campus.datacamp.com/courses/hypothesis-testing-in-python">Hypothesis Testing in Python</a> taught by James Chapman. However, you don't need to have DataCamp access in order to follow along with the concepts presented here.
@@ -190,3 +188,5 @@ I've learned a lot, and I hope those of you reading have learned a lot too. The 
 Until next time!
 
 --Em
+
+###### Hypothesis Testing series — [Part 1: Testing Proportions](http://emily-hk.com/testing-proportions/) · [Part 2: T-Tests & ANOVA](http://emily-hk.com/t-tests-and-more/) · [Part 3: Chi-Squared Tests](http://emily-hk.com/chi-squared/) · Part 4: Non-Parametric Tests *(you are here)*

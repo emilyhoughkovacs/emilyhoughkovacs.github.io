@@ -4,8 +4,6 @@ title: "Hypothesis Testing: T-Tests, ANOVA, and Paired T-Tests"
 date: 2022-06-26 17:42:00
 ---
 
-###### This post is the second of a four-part series on Hypothesis Testing. <a href="http://emily-hk.com/testing-proportions/">Part 1 here</a>. <a href="http://emily-hk.com/chi-squared/">Part 3 here.</a> <a href="http://emily-hk.com/non-parametric-tests/">Part 4 here</a>.
-
 Welcome back! In this post, we are building on our <a href="http://emily-hk.com/testing-proportions/">previous knowledge</a> to expand our hypothesis testing practices to three new types of tests: the t-test, ANOVA, and the paired t-test. I'll go through how to perform each of these tests and when to use them.
 
 As a reminder, this blog post is a review of the DataCamp course <a href="https://campus.datacamp.com/courses/hypothesis-testing-in-python">Hypothesis Testing in Python</a> taught by James Chapman. However, you don't need to have DataCamp access in order to follow along with the concepts presented here.
@@ -150,3 +148,5 @@ Well, there you have it! We covered t-tests, paired t-tests, and ANOVA tests. Ne
 Until next time!
 
 --Em
+
+###### Hypothesis Testing series — [Part 1: Testing Proportions](http://emily-hk.com/testing-proportions/) · Part 2: T-Tests & ANOVA *(you are here)* · [Part 3: Chi-Squared Tests](http://emily-hk.com/chi-squared/) · [Part 4: Non-Parametric Tests](http://emily-hk.com/non-parametric-tests/)
