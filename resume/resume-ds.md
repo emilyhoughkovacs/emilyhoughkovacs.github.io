@@ -26,15 +26,15 @@ www.emilyhk.com \ \textbar\ linkedin.com/in/emilyhoughkovacs
 
 ## Summary
 
-Senior data scientist with 10+ years at Reddit, Meta, and Spotify, moving from analytics into applied ML and ML engineering. Has built and fine-tuned production models (random forest purchase-intent prediction at Meta; embedding and recommendation systems in side projects) and ships LLM-powered tooling against the OpenAI and Anthropic APIs. Strong Python foundation and statistical depth, with a track record of taking models from prototype to product decision.
+Senior data scientist with 10+ years turning messy, large-scale product data into rigorous measurement and evidence-based decisions at Reddit, Meta, and Spotify. Defines source-of-truth metrics that teams rely on, runs observational analyses that quantify real-world impact, and translates ambiguous problems into measurable ones for technical and non-technical audiences. Driven by AI safety, and set on bringing that same measurement rigor to how frontier models behave. Building depth in interpretability and alignment.
 
 ## Skills \& Tools
 
-**Languages \& Libraries:** Python (pandas, NumPy, scikit-learn, statsmodels, matplotlib), SQL \
+**Languages \& Libraries:** Python (pandas, NumPy, scikit-learn, statsmodels, matplotlib), SQL (expert) \
+**Statistics \& Measurement:** statistical modeling, observational impact analysis, metric design \& source-of-truth definitions, forecasting, model evaluation \
 **Data Platforms \& Pipelines:** GCP BigQuery, PostgreSQL, Hive, HDFS, Airflow, ETL, data pipelines \
-**Statistics \& Analytics:** statistical modeling, metric design, Tableau \
-**AI / ML Tooling:** LLM APIs (OpenAI, Anthropic), embeddings \& vector search, Claude Code, Cursor \
-**Engineering:** Git, GitHub, Flask
+**AI / ML Tooling:** LLM APIs (OpenAI, Anthropic), embeddings \& vector search \
+**Communication:** Tableau, dashboards, stakeholder-facing analysis for technical and non-technical audiences
 
 ## Experience
 
@@ -52,19 +52,18 @@ Senior data scientist with 10+ years at Reddit, Meta, and Spotify, moving from a
 
 **Spotify** --- Data Scientist \hfill May 2016 -- May 2021; Aug 2022 -- March 2024
 
-- Pioneered metrics suite for the creator side of the music marketplace, adopted as source of truth across creator-facing teams.
-- Evaluated and monitored time-to-delivery of podcast content, surfacing supply-chain bottlenecks for podcast partnerships.
-- Built and maintained Tableau dashboards tracking performance of internal and external editorial tools.
+- Pioneered the metrics suite for the creator side of the music marketplace, adopted as the source of truth across creator-facing teams.
+- Built monitoring for time-to-delivery of podcast content, surfacing supply-chain bottlenecks for podcast partnerships.
 - Produced creator-side insights for Spotify Wrapped '22 and '23 (top editorial tracks, artists, albums), surfaced in Spotify's public, consumer-facing product.
 
 **Capitol Records, Universal Music Group** --- Data Scientist \hfill November 2021 -- June 2022
 
-- Designed, tested, and implemented metric to measure catalogue consumption for legacy artists.
+- Designed, tested, and implemented a metric to measure catalogue consumption for legacy artists.
 - Harnessed Shazam data to identify emerging cities in international markets --- observational analysis informing A\&R investment.
 
 **Tumblr** --- Product Analyst \hfill September 2014 -- October 2015
 
-- Extracted business insights for a platform serving 250M+ blogs and 60M+ posts/day; automated reporting and built a Flask app to execute and email ad-hoc Hive jobs.
+- Extracted business insights for a platform serving 250M+ blogs and 60M+ posts/day; automated reporting and built a Flask app to run and email ad-hoc Hive jobs.
 
 ## Education
 

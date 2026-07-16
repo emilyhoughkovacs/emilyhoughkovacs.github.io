@@ -26,7 +26,7 @@ www.emilyhk.com \ \textbar\ linkedin.com/in/emilyhoughkovacs
 
 ## Summary
 
-Senior data scientist with 10+ years developing data products and shaping product decisions at Reddit, Meta, and Spotify. Expert in SQL, statistics, and large-scale analytics, with a track record of partnering across product, engineering, and business teams to build ETL pipelines, design metrics frameworks, and deliver ML-driven insights.
+Senior data scientist with 10+ years turning large-scale product data into the metrics, models, and decisions teams act on, at Reddit, Meta, and Spotify. Partners across product, engineering, and business to build ETL pipelines, define source-of-truth metrics, and deliver ML-driven insights, with the statistical judgment to know which numbers to trust.
 
 ## Skills \& Tools
 
@@ -40,27 +40,27 @@ Senior data scientist with 10+ years developing data products and shaping produc
 
 **Reddit** --- Senior Data Scientist, Ads Marketplace \hfill March 2026 -- Present
 
-- Own data science for the identity matching and attribution domain within ads engineering; leading opportunity sizing with engineering to augment the identity lookup service and identity graph with third-party advertiser data.
-- Built and deployed two Airflow ETL pipelines powering an internal dashboard that enables ads engineering to execute data amendments and make-goods for advertiser account incident remediation, reducing manual ticket overhead.
-- Built supply-and-demand dashboard surfacing contextual ad-to-post relevance signals across the marketplace, informing inventory and pacing decisions.
+- Own data science for the identity matching and attribution domain, standing up its measurement foundation (metric taxonomy, pipelines, reporting) in a system that has no true measurement today; validated engineering's opportunity-sizing against source data.
+- Built two Airflow ETL pipelines powering an internal dashboard for ads-engineering data amendments and make-goods during account incident remediation, keeping billed and reported figures consistent while cutting manual ticket overhead.
+- Built a supply-and-demand monitoring dashboard surfacing contextual ad-to-post relevance signals across the marketplace, informing inventory and pacing decisions.
 
 **Meta** --- Senior Data Scientist, Reality Labs \hfill July 2024 -- August 2025
 
-- Fine-tuned random forest ensemble model to predict user purchase intent.
+- Built and evaluated a random forest ensemble predicting user purchase intent, assessing performance tradeoffs.
 - Built long-range forecasts for Lifestyle and Entertainment teams' key metrics, informing roadmap and resourcing decisions.
-- Evaluated MR vs.\ fully immersive VR effectiveness for the fitness use case and quantified impact of physical space on user engagement.
+- Ran observational analyses of MR vs.\ fully immersive VR effectiveness, quantifying the impact of physical space on user engagement.
 
 **Spotify** --- Data Scientist \hfill May 2016 -- May 2021; Aug 2022 -- March 2024
 
 - Pioneered metrics suite for the creator side of the music marketplace, adopted as source of truth across creator-facing teams.
 - Evaluated and monitored time-to-delivery of podcast content, surfacing supply-chain bottlenecks for podcast partnerships.
 - Built and maintained Tableau dashboards tracking performance of internal and external editorial tools.
-- Produced creator-side insights for Spotify Wrapped '22 and '23 (top editorial tracks, artists, albums).
+- Produced creator-side insights for Spotify Wrapped '22 and '23 (top editorial tracks, artists, albums), surfaced in Spotify's public, consumer-facing product.
 
 **Capitol Records, Universal Music Group** --- Data Scientist \hfill November 2021 -- June 2022
 
 - Designed, tested, and implemented metric to measure catalogue consumption for legacy artists.
-- Harnessed Shazam data to identify emerging cities in international markets, informing A\&R investment and new artist evaluation.
+- Harnessed Shazam data to identify emerging cities in international markets --- observational analysis informing A\&R investment.
 
 **Tumblr** --- Product Analyst \hfill September 2014 -- October 2015
 
@@ -70,7 +70,8 @@ Senior data scientist with 10+ years developing data products and shaping produc
 
 **Barnard College, Columbia University** --- B.A., Mathematics / Computer Science \hfill May 2014
 
-## Projects
+## Projects \& Writing
 
-**Semantle** --- semantic word-guessing game (Python, gensim, FastAPI). Backend using pre-trained word2vec embeddings and cosine similarity to score player guesses against a target word. \
-**Playlistr** --- smart playlist generator (Python, MongoDB). Non-negative matrix factorization and pairwise dot product to surface songs with similar artistic influences; song metadata from Rap Genius API.
+**Build Your Own LLM** --- writeup from a hands-on workshop building a GPT-style model from scratch. emilyhk.com/llm-workshop \
+**Semantle** --- word-guessing game (Python, gensim, FastAPI): word2vec embeddings + cosine similarity. \
+**Playlistr** --- playlist generator (Python, MongoDB): NMF over Rap Genius song metadata surfaces similar songs.
