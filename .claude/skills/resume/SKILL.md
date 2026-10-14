@@ -14,7 +14,7 @@ description: Draft or revise a role-tailored resume variant in this repo (resume
 | `resume/resume.md` | Base resume. Source of `/resume.pdf`, and the source of truth for every locked section. |
 | `resume/resume-<XX>.md` | Role-tailored variants (`ls resume/*.md` for the current set). |
 | `resume/build.sh` | pandoc + xelatex. Builds `resume/<name>.md` to `<repo root>/<name>.pdf`, which GitHub Pages serves at `emilyhk.com/<name>.pdf`. |
-| `resume.html` | Redirects `/resume` to `/resume.pdf`. |
+| `resume.html` + the nav link in `_layouts/default.html` | Both point at `/resume-ds.pdf` (switched from the base resume on 2026-10-14). |
 
 ## Hard rules
 
