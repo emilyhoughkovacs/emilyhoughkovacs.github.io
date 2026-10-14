@@ -51,17 +51,13 @@ Senior data scientist with 10+ years at Reddit, Meta, and Spotify, focused on th
 - Built long-range forecasts for Lifestyle and Entertainment teams' key metrics, informing roadmap and resourcing decisions.
 - Ran observational analyses of MR vs.\ fully immersive VR effectiveness, quantifying the impact of physical space on user engagement.
 
-**Spotify** --- Data Scientist \hfill May 2016 -- May 2021; Aug 2022 -- March 2024
+**Spotify** --- Data Scientist \hfill Aug 2022 -- March 2024 \
+\mbox{}\hfill May 2016 -- May 2021
 
 - Pioneered metrics suite for the creator side of the music marketplace, adopted as source of truth across creator-facing teams.
 - Evaluated and monitored time-to-delivery of podcast content, surfacing supply-chain bottlenecks for podcast partnerships.
 - Built and maintained Tableau dashboards tracking performance of internal and external editorial tools.
 - Produced creator-side insights for Spotify Wrapped '22 and '23 (top editorial tracks, artists, albums), surfaced in Spotify's public, consumer-facing product.
-
-**Capitol Records, Universal Music Group** --- Data Scientist \hfill November 2021 -- June 2022
-
-- Designed, tested, and implemented metric to measure catalogue consumption for legacy artists.
-- Harnessed Shazam data to identify emerging cities in international markets --- observational analysis informing A\&R investment.
 
 **Tumblr** --- Product Analyst \hfill September 2014 -- October 2015
 

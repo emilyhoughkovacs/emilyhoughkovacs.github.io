@@ -79,7 +79,19 @@ cd resume && diff <(sed -n '/^## Skills/,/^## Projects/p' resume.md) \
                   <(sed -n '/^## Skills/,/^## Projects/p' resume-<XX>.md)
 ```
 
-This must print nothing. **Known divergence:** `resume-ds.md`'s Skills section and Spotify bullets already differ from the base. If the diff flags a divergence that already existed, ask Emily before "fixing" it.
+The only differences it should show are the approved ones below. If it flags anything else, ask Emily before "fixing" it.
+
+**Approved divergences from the base:**
+
+- **All variants** drop Capitol Records, Universal Music Group. They also split Spotify's dates so the most recent stint stays on the role line and the earlier stint gets its own right-aligned line:
+
+  ```
+  **Spotify** --- Data Scientist \hfill Aug 2022 -- March 2024 \
+  \mbox{}\hfill May 2016 -- May 2021
+  ```
+
+  The base resume keeps Capitol Records and the single-line Spotify dates. New variants copy the variant form.
+- **`resume-ds.md`** has its own Skills section and Spotify bullets.
 
 ### 7. Commit, push, verify
 
