@@ -9,3 +9,10 @@ node_modules
 package.json
 topic_ideas.txt
 llm-deck.pdf
+.jekyll-cache
+data/
+*.csv
+*.parquet
+*.pkl
+*.joblib
+.ipynb_checkpoints/
