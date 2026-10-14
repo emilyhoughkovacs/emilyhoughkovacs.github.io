@@ -60,7 +60,12 @@ Ask whether there's current project work worth adding. If she names a public rep
 
 ### 5. Write, build, iterate
 
-Write the file: front matter, header and locked sections exactly as in `resume.md`, plus the new Summary/Projects. Then:
+Write the file: front matter, header and locked sections exactly as in `resume.md`, plus the new Summary/Projects. Every resume uses the same layout:
+
+- Header: name; phone | city | email; then linkedin | website | github, so the website sits in the middle.
+- Section order: Summary → Skills & Tools → Projects & Writing → Experience → Education.
+
+Then:
 
 ```bash
 resume/build.sh resume-<XX>.md
@@ -75,8 +80,9 @@ If the page overflows, stop and review with Emily (hard rule 5). Show what spill
 ### 6. Check the locked sections
 
 ```bash
-cd resume && diff <(sed -n '/^## Skills/,/^## Projects/p' resume.md) \
-                  <(sed -n '/^## Skills/,/^## Projects/p' resume-<XX>.md)
+cd resume
+lock() { awk '/^## /{p = ($0 ~ /^## (Skills|Experience|Education)/)} p' "$1"; }  # locked sections only, in any order
+diff <(lock resume.md) <(lock resume-<XX>.md)
 ```
 
 The only differences it should show are the approved ones below. If it flags anything else, ask Emily before "fixing" it.
@@ -84,7 +90,7 @@ The only differences it should show are the approved ones below. If it flags any
 **Approved divergences from the base:**
 
 - **All variants** drop Capitol Records, Universal Music Group. The base resume keeps it, and new variants drop it.
-- **`resume-ds.md`** has its own Skills section and Spotify bullets.
+- **`resume-ds.md`** has its own Skills section and its own wording for some Experience bullets (Spotify, Tumblr).
 
 ### 7. Commit, push, verify
 

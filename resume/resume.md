@@ -22,7 +22,7 @@ header-includes:
 \begin{center}
 {\Large \textbf{Emily Hough-Kovacs}} \\[1pt]
 +1 (603) 484-2534 \ \textbar\ San Francisco, CA \ \textbar\ emilyhoughkovacs@gmail.com \\
-www.emilyhk.com \ \textbar\ linkedin.com/in/emilyhoughkovacs
+linkedin.com/in/emilyhoughkovacs \ \textbar\ www.emilyhk.com \ \textbar\ github.com/emilyhoughkovacs
 \end{center}
 
 ## Summary
@@ -36,6 +36,14 @@ Senior data scientist with 10+ years turning large-scale product data into the m
 **Statistics \& Analytics:** statistical modeling, metric design, Tableau \
 **AI / ML Tooling:** LLM APIs (OpenAI, Anthropic), embeddings \& vector search, Claude Code, Cursor \
 **Engineering:** Git, GitHub, Flask
+
+## Projects \& Writing
+
+**[research-watcher](https://github.com/emilyhoughkovacs/research-watcher)** --- daily LLM pipeline (Python, Claude API, GitHub Actions) that ranks and summarizes new AI papers. \
+**[Agentic Customer Behavior Simulator](https://github.com/emilyhoughkovacs/blok-persona-clustering)** --- persona-based agents model real customer purchase intent and behavior. \
+**[Build Your Own LLM](https://emilyhk.com/llm-workshop)** --- writeup from a hands-on workshop building a GPT-style model from scratch. \
+**Semantle** --- word-guessing game (Python, gensim, FastAPI): word2vec embeddings + cosine similarity. \
+**Playlistr** --- playlist generator (Python, MongoDB): NMF over Rap Genius song metadata surfaces similar songs.
 
 ## Experience
 
@@ -71,11 +79,3 @@ Senior data scientist with 10+ years turning large-scale product data into the m
 ## Education
 
 **Barnard College, Columbia University** --- B.A., Mathematics / Computer Science \hfill May 2014
-
-## Projects \& Writing
-
-**[research-watcher](https://github.com/emilyhoughkovacs/research-watcher)** --- daily LLM pipeline (Python, Claude API, GitHub Actions) that ranks and summarizes new AI papers. \
-**[Agentic Customer Behavior Simulator](https://github.com/emilyhoughkovacs/blok-persona-clustering)** --- persona-based agents model real customer purchase intent and behavior. \
-**[Build Your Own LLM](https://emilyhk.com/llm-workshop)** --- writeup from a hands-on workshop building a GPT-style model from scratch. \
-**Semantle** --- word-guessing game (Python, gensim, FastAPI): word2vec embeddings + cosine similarity. \
-**Playlistr** --- playlist generator (Python, MongoDB): NMF over Rap Genius song metadata surfaces similar songs.
