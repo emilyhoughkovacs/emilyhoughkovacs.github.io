@@ -90,7 +90,7 @@ The only differences it should show are the approved ones below. If it flags any
 **Approved divergences from the base:**
 
 - **All variants** drop Capitol Records, Universal Music Group. The base resume keeps it, and new variants drop it.
-- **`resume-ds.md`** has its own Skills section and its own wording for some Experience bullets (Spotify, Tumblr).
+- **`resume-ds.md`** has its own Skills section and its own wording for some Spotify bullets.
 
 ### 7. Commit, push, verify
 

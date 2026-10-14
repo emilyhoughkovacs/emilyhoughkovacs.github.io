@@ -74,7 +74,7 @@ Senior data scientist with 10+ years turning large-scale product data into the m
 
 **Tumblr** --- Product Analyst \hfill September 2014 -- October 2015
 
-- Extracted business insights for a platform serving 250M+ blogs and 60M+ posts/day; automated reporting and built a Flask app to execute and email ad-hoc Hive jobs.
+- Extracted business insights for a platform serving 250M+ blogs and 60M+ posts/day; automated reporting and built a Flask app to run and email ad-hoc Hive jobs.
 
 ## Education
 
