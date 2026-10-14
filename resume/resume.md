@@ -5,8 +5,6 @@ colorlinks: true
 linkcolor: black
 urlcolor: linkblue
 header-includes:
-  - \newlength{\hdrsideA}
-  - \newlength{\hdrsideB}
   - \definecolor{linkblue}{HTML}{1A56B8}
   - \pagestyle{empty}
   - \setlength{\parindent}{0pt}
@@ -22,10 +20,9 @@ header-includes:
 ---
 
 \begin{center}
-\settowidth{\hdrsideA}{emilyhoughkovacs@gmail.com}\settowidth{\hdrsideB}{linkedin.com/in/emilyhoughkovacs}
 {\Large \textbf{Emily Hough-Kovacs}} \\[1pt]
-\makebox[\hdrsideA][r]{+1 (603) 484-2534}\enspace\textbar\enspace San Francisco, CA\enspace\textbar\enspace\makebox[\hdrsideA][l]{emilyhoughkovacs@gmail.com} \\
-\makebox[\hdrsideB][r]{linkedin.com/in/emilyhoughkovacs}\enspace\textbar\enspace www.emilyhk.com\enspace\textbar\enspace\makebox[\hdrsideB][l]{github.com/emilyhoughkovacs}
++1 (603) 484-2534 \ \textbar\ San Francisco, CA \ \textbar\ emilyhoughkovacs@gmail.com \\
+linkedin.com/in/emilyhoughkovacs \ \textbar\ www.emilyhk.com \ \textbar\ github.com/emilyhoughkovacs
 \end{center}
 
 ## Summary
