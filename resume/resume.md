@@ -51,7 +51,8 @@ Senior data scientist with 10+ years turning large-scale product data into the m
 - Built long-range forecasts for Lifestyle and Entertainment teams' key metrics, informing roadmap and resourcing decisions.
 - Ran observational analyses of MR vs.\ fully immersive VR effectiveness, quantifying the impact of physical space on user engagement.
 
-**Spotify** --- Data Scientist \hfill May 2016 -- May 2021; Aug 2022 -- March 2024
+**Spotify** --- Data Scientist \hfill Aug 2022 -- March 2024 \
+\mbox{}\hfill May 2016 -- May 2021
 
 - Pioneered metrics suite for the creator side of the music marketplace, adopted as source of truth across creator-facing teams.
 - Evaluated and monitored time-to-delivery of podcast content, surfacing supply-chain bottlenecks for podcast partnerships.

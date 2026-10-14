@@ -83,14 +83,7 @@ The only differences it should show are the approved ones below. If it flags any
 
 **Approved divergences from the base:**
 
-- **All variants** drop Capitol Records, Universal Music Group. They also split Spotify's dates so the most recent stint stays on the role line and the earlier stint gets its own right-aligned line:
-
-  ```
-  **Spotify** --- Data Scientist \hfill Aug 2022 -- March 2024 \
-  \mbox{}\hfill May 2016 -- May 2021
-  ```
-
-  The base resume keeps Capitol Records and the single-line Spotify dates. New variants copy the variant form.
+- **All variants** drop Capitol Records, Universal Music Group. The base resume keeps it, and new variants drop it.
 - **`resume-ds.md`** has its own Skills section and Spotify bullets.
 
 ### 7. Commit, push, verify
@@ -111,6 +104,7 @@ curl -s "https://emilyhk.com/resume-<XX>.pdf?v=$(date +%s)" -o /tmp/live.pdf && 
 | `\&` | ampersand |
 | `---` | em dash |
 | `\hfill` | right-aligned dates on a role line |
+| `\hfill Aug 2022 -- March 2024 \` then `\mbox{}\hfill May 2016 -- May 2021` | a second tenure (Spotify) on its own right-aligned line. `\mbox{}` stops LaTeX from discarding the `\hfill` at the start of a line. |
 | trailing ` \` | line break between Projects entries (not after the last one) |
 | `vs.\ ` | stops LaTeX from treating "vs." as a sentence end |
 | `**[Title](https://…)**` | project titles are links. Never write out a bare URL. |
