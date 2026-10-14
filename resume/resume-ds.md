@@ -5,6 +5,8 @@ colorlinks: true
 linkcolor: black
 urlcolor: linkblue
 header-includes:
+  - \newlength{\hdrsideA}
+  - \newlength{\hdrsideB}
   - \definecolor{linkblue}{HTML}{1A56B8}
   - \pagestyle{empty}
   - \setlength{\parindent}{0pt}
@@ -20,22 +22,15 @@ header-includes:
 ---
 
 \begin{center}
+\settowidth{\hdrsideA}{emilyhoughkovacs@gmail.com}\settowidth{\hdrsideB}{linkedin.com/in/emilyhoughkovacs}
 {\Large \textbf{Emily Hough-Kovacs}} \\[1pt]
-+1 (603) 484-2534 \ \textbar\ San Francisco, CA \ \textbar\ emilyhoughkovacs@gmail.com \\
-linkedin.com/in/emilyhoughkovacs \ \textbar\ www.emilyhk.com \ \textbar\ github.com/emilyhoughkovacs
+\makebox[\hdrsideA][r]{+1 (603) 484-2534}\enspace\textbar\enspace San Francisco, CA\enspace\textbar\enspace\makebox[\hdrsideA][l]{emilyhoughkovacs@gmail.com} \\
+\makebox[\hdrsideB][r]{linkedin.com/in/emilyhoughkovacs}\enspace\textbar\enspace www.emilyhk.com\enspace\textbar\enspace\makebox[\hdrsideB][l]{github.com/emilyhoughkovacs}
 \end{center}
 
 ## Summary
 
 Senior data scientist with 10+ years turning messy, large-scale product data into rigorous measurement and evidence-based decisions at Reddit, Meta, and Spotify. Defines source-of-truth metrics that teams rely on, runs observational analyses that quantify real-world impact, and translates ambiguous problems into measurable ones for technical and non-technical audiences. Driven by AI safety, and set on bringing that same measurement rigor to how frontier models behave. Building depth in interpretability and alignment.
-
-## Skills \& Tools
-
-**Languages \& Libraries:** Python (pandas, NumPy, scikit-learn, statsmodels, matplotlib), SQL (expert) \
-**Statistics \& Measurement:** statistical modeling, observational impact analysis, metric design \& source-of-truth definitions, forecasting, model evaluation \
-**Data Platforms \& Pipelines:** GCP BigQuery, PostgreSQL, Hive, HDFS, Airflow, ETL, data pipelines \
-**AI / ML Tooling:** LLM APIs (OpenAI, Anthropic), embeddings \& vector search \
-**Communication:** Tableau, dashboards, stakeholder-facing analysis for technical and non-technical audiences
 
 ## Projects
 
@@ -73,3 +68,11 @@ Senior data scientist with 10+ years turning messy, large-scale product data int
 ## Education
 
 **Barnard College, Columbia University** --- B.A., Mathematics / Computer Science \hfill May 2014
+
+## Skills \& Tools
+
+**Languages \& Libraries:** Python (pandas, NumPy, scikit-learn, statsmodels, matplotlib), SQL (expert) \
+**Statistics \& Measurement:** statistical modeling, observational impact analysis, metric design \& source-of-truth definitions, forecasting, model evaluation \
+**Data Platforms \& Pipelines:** GCP BigQuery, PostgreSQL, Hive, HDFS, Airflow, ETL, data pipelines \
+**AI / ML Tooling:** LLM APIs (OpenAI, Anthropic), embeddings \& vector search \
+**Communication:** Tableau, dashboards, stakeholder-facing analysis for technical and non-technical audiences

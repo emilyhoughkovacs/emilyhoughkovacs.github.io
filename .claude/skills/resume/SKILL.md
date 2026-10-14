@@ -62,8 +62,8 @@ Ask whether there's current project work worth adding. If she names a public rep
 
 Write the file: front matter, header and locked sections exactly as in `resume.md`, plus the new Summary/Projects. Every resume uses the same layout:
 
-- Header: name; phone | city | email; then linkedin | website | github, so the website sits in the middle.
-- Section order: Summary → Skills & Tools → Projects → Experience → Education.
+- Header: the name, then two lines: phone | city | email and linkedin | website | github. The city and the website are at true center. The side items sit in equal-width boxes (`\makebox[\hdrsideA][r]{…}` / `[l]{…}`), each sized with `\settowidth` to the wider side item on its line. The `\newlength{\hdrsideA}` and `\newlength{\hdrsideB}` lines in `header-includes` must come along too.
+- Section order: Summary → Projects → Experience → Education → Skills & Tools.
 
 Then:
 

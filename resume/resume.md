@@ -5,6 +5,8 @@ colorlinks: true
 linkcolor: black
 urlcolor: linkblue
 header-includes:
+  - \newlength{\hdrsideA}
+  - \newlength{\hdrsideB}
   - \definecolor{linkblue}{HTML}{1A56B8}
   - \pagestyle{empty}
   - \setlength{\parindent}{0pt}
@@ -20,22 +22,15 @@ header-includes:
 ---
 
 \begin{center}
+\settowidth{\hdrsideA}{emilyhoughkovacs@gmail.com}\settowidth{\hdrsideB}{linkedin.com/in/emilyhoughkovacs}
 {\Large \textbf{Emily Hough-Kovacs}} \\[1pt]
-+1 (603) 484-2534 \ \textbar\ San Francisco, CA \ \textbar\ emilyhoughkovacs@gmail.com \\
-linkedin.com/in/emilyhoughkovacs \ \textbar\ www.emilyhk.com \ \textbar\ github.com/emilyhoughkovacs
+\makebox[\hdrsideA][r]{+1 (603) 484-2534}\enspace\textbar\enspace San Francisco, CA\enspace\textbar\enspace\makebox[\hdrsideA][l]{emilyhoughkovacs@gmail.com} \\
+\makebox[\hdrsideB][r]{linkedin.com/in/emilyhoughkovacs}\enspace\textbar\enspace www.emilyhk.com\enspace\textbar\enspace\makebox[\hdrsideB][l]{github.com/emilyhoughkovacs}
 \end{center}
 
 ## Summary
 
 Senior data scientist with 10+ years turning large-scale product data into the metrics, models, and decisions teams act on, at Reddit, Meta, and Spotify. Partners across product, engineering, and business to build ETL pipelines, define source-of-truth metrics, and deliver ML-driven insights, with the statistical judgment to know which numbers to trust.
-
-## Skills \& Tools
-
-**Languages \& Libraries:** Python (pandas, NumPy, scikit-learn, statsmodels, matplotlib), SQL \
-**Data Platforms \& Pipelines:** GCP BigQuery, PostgreSQL, Hive, HDFS, Airflow, ETL, data pipelines \
-**Statistics \& Analytics:** statistical modeling, metric design, Tableau \
-**AI / ML Tooling:** LLM APIs (OpenAI, Anthropic), embeddings \& vector search, Claude Code, Cursor \
-**Engineering:** Git, GitHub, Flask
 
 ## Projects
 
@@ -79,3 +74,11 @@ Senior data scientist with 10+ years turning large-scale product data into the m
 ## Education
 
 **Barnard College, Columbia University** --- B.A., Mathematics / Computer Science \hfill May 2014
+
+## Skills \& Tools
+
+**Languages \& Libraries:** Python (pandas, NumPy, scikit-learn, statsmodels, matplotlib), SQL \
+**Data Platforms \& Pipelines:** GCP BigQuery, PostgreSQL, Hive, HDFS, Airflow, ETL, data pipelines \
+**Statistics \& Analytics:** statistical modeling, metric design, Tableau \
+**AI / ML Tooling:** LLM APIs (OpenAI, Anthropic), embeddings \& vector search, Claude Code, Cursor \
+**Engineering:** Git, GitHub, Flask
