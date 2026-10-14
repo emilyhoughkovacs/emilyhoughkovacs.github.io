@@ -37,7 +37,7 @@ Senior data scientist with 10+ years turning large-scale product data into rigor
 **AI / ML Tooling:** LLM APIs (OpenAI, Anthropic), embeddings \& vector search, Claude Code, Cursor \
 **Engineering:** Git, GitHub, Flask
 
-## Projects \& Writing
+## Projects
 
 **[research-watcher](https://github.com/emilyhoughkovacs/research-watcher)** --- daily LLM pipeline (Python, Claude API, GitHub Actions) that ranks and summarizes new AI papers. \
 **[Agentic Customer Behavior Simulator](https://github.com/emilyhoughkovacs/blok-persona-clustering)** --- persona-based agents model real customer purchase intent and behavior. \

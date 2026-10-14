@@ -37,7 +37,7 @@ Senior data scientist with 10+ years turning messy, large-scale product data int
 **AI / ML Tooling:** LLM APIs (OpenAI, Anthropic), embeddings \& vector search \
 **Communication:** Tableau, dashboards, stakeholder-facing analysis for technical and non-technical audiences
 
-## Projects \& Writing
+## Projects
 
 **[research-watcher](https://github.com/emilyhoughkovacs/research-watcher)** --- daily LLM pipeline (Python, Claude API, GitHub Actions) that ranks and summarizes new AI papers. \
 **[Agentic Customer Behavior Simulator](https://github.com/emilyhoughkovacs/blok-persona-clustering)** --- persona-based agents model real customer purchase intent and behavior. \

@@ -20,7 +20,7 @@ description: Draft or revise a role-tailored resume variant in this repo (resume
 
 1. **Locked sections: Skills & Tools, Experience, Education.** Copy them verbatim from `resume/resume.md`. Never change them unless Emily and Claude have discussed the change first. If she approves one, ask whether it applies to the base and every variant, or only this one.
 2. **The Summary is the main lever.** Most of a draft's work happens here.
-3. **Projects & Writing changes only for real, current work.** Ask Emily whether she has relevant current project work, and never invent a project. When Projects changes, ask "this variant only, or the base and every variant?"
+3. **Projects changes only for real, current work.** Ask Emily whether she has relevant current project work, and never invent a project. When Projects changes, ask "this variant only, or the base and every variant?"
 4. **Build after every draft:** `resume/build.sh resume-<XX>.md`. Build the single file. The no-argument form rebuilds every PDF, so use it only when a change touched every variant. Then report the page count and show Emily the PDF.
 5. **Never trim to fit the page without Emily's review.** Don't shorten a project description, drop a project, cut summary text or tighten a bullet just to make a page fit. Report the overflow, say what would have to go, and wait for her decision. Two pages can be fine for some variants; that is her call, not a default to optimize away. The base resume is two pages by her choice (2026-10-14), so don't try to compress it.
 6. **Truthfulness.** Every summary claim has to be backed by something in Experience or Projects. Never add a skill or framework from a job posting that Emily doesn't have; name the gap to her instead.
@@ -63,7 +63,7 @@ Ask whether there's current project work worth adding. If she names a public rep
 Write the file: front matter, header and locked sections exactly as in `resume.md`, plus the new Summary/Projects. Every resume uses the same layout:
 
 - Header: name; phone | city | email; then linkedin | website | github, so the website sits in the middle.
-- Section order: Summary → Skills & Tools → Projects & Writing → Experience → Education.
+- Section order: Summary → Skills & Tools → Projects → Experience → Education.
 
 Then:
 
