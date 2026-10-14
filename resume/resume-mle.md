@@ -3,8 +3,9 @@ geometry: "left=0.5in,right=0.5in,top=0.4in,bottom=0.4in"
 fontsize: 10pt
 colorlinks: true
 linkcolor: black
-urlcolor: black
+urlcolor: linkblue
 header-includes:
+  - \definecolor{linkblue}{HTML}{1A56B8}
   - \pagestyle{empty}
   - \setlength{\parindent}{0pt}
   - \setlength{\parskip}{1pt}
@@ -26,7 +27,7 @@ www.emilyhk.com \ \textbar\ linkedin.com/in/emilyhoughkovacs
 
 ## Summary
 
-Senior data scientist with 10+ years at Reddit, Meta, and Spotify, moving from analytics into applied ML and ML engineering. Has built and fine-tuned production models (random forest purchase-intent prediction at Meta; embedding and recommendation systems in side projects) and ships LLM-powered tooling against the OpenAI and Anthropic APIs. Strong Python foundation and statistical depth, with a track record of taking models from prototype to product decision.
+Senior data scientist with 10+ years turning large-scale product data into rigorous measurement and decisions at Reddit, Meta, and Spotify. Now transitioning full-time into machine learning and AI, from hands-on classical ML (random forest ensembles, NMF, word2vec embeddings) to LLM pipelines on the Anthropic API. Strong Python foundation; building depth in deep learning and transformer-based language models.
 
 ## Skills \& Tools
 
@@ -72,6 +73,8 @@ Senior data scientist with 10+ years at Reddit, Meta, and Spotify, moving from a
 
 ## Projects \& Writing
 
-**Build Your Own LLM** --- writeup from a hands-on workshop building a GPT-style model from scratch. emilyhk.com/llm-workshop \
+**[research-watcher](https://github.com/emilyhoughkovacs/research-watcher)** --- daily LLM pipeline (Python, Claude API, GitHub Actions) that ranks and summarizes new AI papers. \
+**[Agentic Customer Behavior Simulator](https://github.com/emilyhoughkovacs/blok-persona-clustering)** --- persona-based agents model real customer purchase intent and behavior. \
+**[Build Your Own LLM](https://emilyhk.com/llm-workshop)** --- writeup from a hands-on workshop building a GPT-style model from scratch. \
 **Semantle** --- word-guessing game (Python, gensim, FastAPI): word2vec embeddings + cosine similarity. \
 **Playlistr** --- playlist generator (Python, MongoDB): NMF over Rap Genius song metadata surfaces similar songs.
