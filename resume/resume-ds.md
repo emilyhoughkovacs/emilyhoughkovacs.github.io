@@ -27,7 +27,7 @@ linkedin.com/in/emilyhoughkovacs \ \textbar\ www.emilyhk.com \ \textbar\ github.
 
 ## Summary
 
-Senior data scientist with 10+ years turning messy, large-scale product data into rigorous measurement and evidence-based decisions at Reddit, Meta, and Spotify. Defines source-of-truth metrics that teams rely on, runs observational analyses that quantify real-world impact, and translates ambiguous problems into measurable ones for technical and non-technical audiences. Driven by AI safety, and set on bringing that same measurement rigor to how frontier models behave. Building depth in interpretability and alignment.
+Senior data scientist with 10+ years turning messy, large-scale product data into rigorous measurement and evidence-based decisions at Reddit, Meta, and Spotify. Defines source-of-truth metrics that teams rely on, runs observational analyses that quantify real-world impact, and translates ambiguous problems into measurable ones for technical and non-technical audiences. Follows AI research closely, with a passion for frontier capabilities and an eye toward alignment and safety.
 
 ## Projects
 
