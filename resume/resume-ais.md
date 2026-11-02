@@ -75,5 +75,6 @@ Senior data scientist with 10+ years at Reddit, Meta, and Spotify, now transitio
 ## Skills \& Tools
 
 **Languages \& Libraries:** Python (pandas, NumPy, scikit-learn, statsmodels, matplotlib), SQL (expert) \
-**Statistics \& Measurement:** statistical modeling, observational impact analysis, metric design \& source-of-truth definitions, forecasting, model evaluation \
-**Data Platforms \& Pipelines:** GCP BigQuery, PostgreSQL, Hive, HDFS, Airflow, ETL, data pipelines
+**Statistics \& Measurement:** statistical modeling, observational analysis, metric design, forecasting, model evaluation \
+**Data Platforms \& Pipelines:** GCP BigQuery, PostgreSQL, Hive, HDFS, Airflow, ETL, data pipelines \
+**Communication:** Tableau, dashboards, stakeholder-facing analysis for technical and non-technical audiences
