@@ -91,6 +91,7 @@ The only differences it should show are the approved ones below. If it flags any
 
 - **All variants** drop Capitol Records, Universal Music Group. The base resume keeps it, and new variants drop it.
 - **`resume-ds.md`** has its own Skills section and its own wording for some Spotify bullets.
+- **`resume-ais.md`** (AI safety; first built for the Generator Residency, 2026-11-01) copies `resume-ds.md`'s locked sections and adds an **AI Safety** section between Summary and Projects.
 
 ### 7. Commit, push, verify
 
