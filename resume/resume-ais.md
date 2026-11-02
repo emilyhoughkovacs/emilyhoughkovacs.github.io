@@ -31,9 +31,9 @@ Senior data scientist with 10+ years at Reddit, Meta, and Spotify, now transitio
 
 ## AI Safety
 
-**Nightingale** --- work trial: triaged follow-up report from the collusion.wiki agent swarm investigation. \hfill Sep -- Oct 2026 \
 **[Mercial Research Fellowship](https://mercial.uk/fellowship)** --- writing with three co-authors on the current state of AI safety. \hfill Oct -- Nov 2026 \
 **[BlueDot Technical AI Safety Course](https://bluedot.org/courses/technical-ai-safety)** --- six-day intensive introduction to technical AI safety \& alignment. \hfill Oct 2026 \
+**Nightingale** --- work trial: triaged follow-up report from the collusion.wiki agent swarm investigation. \hfill Sep -- Oct 2026 \
 **Community Building** --- co-hosted an AI Research Circle session on Constitutional AI. \hfill Mar 2026 \
 \phantom{\textbf{Community Building} --- }hosted a screening and discussion of *The Thinking Game*. \hfill Jan 2026
 
