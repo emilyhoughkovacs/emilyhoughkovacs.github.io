@@ -39,7 +39,7 @@ Senior data scientist with 10+ years turning messy, large-scale product data int
 
 ## Experience
 
-**Reddit** --- Senior Data Scientist, Ads Marketplace \hfill March 2026 -- Present
+**Reddit** --- Senior Data Scientist, Ads Marketplace \hfill March 2026 -- October 2026
 
 - Own data science for the identity matching and attribution domain, standing up its measurement foundation (metric taxonomy, pipelines, reporting) in a system that has no true measurement today; validated engineering's opportunity-sizing against source data.
 - Built two Airflow ETL pipelines powering an internal dashboard for ads-engineering data amendments and make-goods during account incident remediation, keeping billed and reported figures consistent while cutting manual ticket overhead.
