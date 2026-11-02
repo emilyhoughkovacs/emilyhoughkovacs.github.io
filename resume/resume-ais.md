@@ -31,18 +31,16 @@ Senior data scientist with 10+ years at Reddit, Meta, and Spotify, now transitio
 
 ## AI Safety
 
-**Nightingale** --- work trial: triaged reported rogue-agent activity for novel behaviors and newly accessed sites, following up the collusion.wiki agent-swarm investigation. Write-up in progress. \hfill Sep -- Oct 2026 \
-**Mercial Research Fellowship** --- mentored fellowship (James Sykes' stream) researching why frontier labs are calling for an AI slowdown. Article in progress. \hfill Oct -- Nov 2026 \
-**BlueDot Impact** --- Technical AI Safety course: alignment \& RLHF, mechanistic interpretability, evals \& red-teaming, AI control, scalable oversight. \hfill Oct 2026 \
-**Community** --- co-hosted an AI Research Circle session on Anthropic's constitution and constitutional AI (The Commons, SF); hosted a screening and discussion of *The Thinking Game*. \hfill Jan -- Mar 2026
+**Nightingale** --- work trial: triaged follow-up report from the collusion.wiki agent swarm investigation. \hfill Sep -- Oct 2026 \
+**[Mercial Research Fellowship](https://mercial.uk/fellowship)** --- writing with three co-authors on the current state of AI safety. \hfill Oct -- Nov 2026 \
+**[BlueDot Technical AI Safety Course](https://bluedot.org/courses)** --- six-day intensive introduction to technical AI safety \& alignment. \hfill Oct 2026 \
+**Community Building** --- co-hosted an AI Research Circle session on Constitutional AI; hosted a screening and discussion of *The Thinking Game*. \hfill Jan -- Mar 2026
 
 ## Projects
 
 **[research-watcher](https://github.com/emilyhoughkovacs/research-watcher)** --- daily LLM pipeline (Python, Claude API, GitHub Actions) that ranks and summarizes new AI papers. \
 **[Agentic Customer Behavior Simulator](https://github.com/emilyhoughkovacs/blok-persona-clustering)** --- persona-based agents model real customer purchase intent and behavior. \
-**[Build Your Own LLM](https://emilyhk.com/llm-workshop)** --- writeup from a hands-on workshop building a GPT-style model from scratch (PyTorch). \
-**Semantle** --- word-guessing game (Python, gensim, FastAPI): word2vec embeddings + cosine similarity. \
-**Playlistr** --- playlist generator (Python, MongoDB): NMF over Rap Genius song metadata surfaces similar songs.
+**[Build Your Own LLM](https://emilyhk.com/llm-workshop)** --- writeup from a hands-on workshop building a GPT-style model from scratch (PyTorch).
 
 ## Experience
 
@@ -78,5 +76,4 @@ Senior data scientist with 10+ years at Reddit, Meta, and Spotify, now transitio
 **Languages \& Libraries:** Python (pandas, NumPy, scikit-learn, statsmodels, matplotlib), SQL (expert) \
 **Statistics \& Measurement:** statistical modeling, observational impact analysis, metric design \& source-of-truth definitions, forecasting, model evaluation \
 **Data Platforms \& Pipelines:** GCP BigQuery, PostgreSQL, Hive, HDFS, Airflow, ETL, data pipelines \
-**AI / ML Tooling:** LLM APIs (OpenAI, Anthropic), embeddings \& vector search \
 **Communication:** Tableau, dashboards, stakeholder-facing analysis for technical and non-technical audiences
